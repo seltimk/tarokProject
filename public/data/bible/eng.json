@@ -1,0 +1,19 @@
+{
+  "books": {
+    "John": {
+      "1": [
+        { "verse": 1, "text": "In the beginning was the Word, and the Word was with God, and the Word was God." },
+        { "verse": 2, "text": "He was in the beginning with God." },
+        { "verse": 3, "text": "All things were made through him, and without him was not anything made that was made." },
+        { "verse": 4, "text": "In him was life, and the life was the light of men." }
+      ]
+    },
+    "Psalm": {
+      "23": [
+        { "verse": 1, "text": "The Lord is my shepherd; I shall not want." },
+        { "verse": 2, "text": "He makes me lie down in green pastures." },
+        { "verse": 3, "text": "He restores my soul; he leads me in paths of righteousness." }
+      ]
+    }
+  }
+}

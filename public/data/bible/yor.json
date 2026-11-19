@@ -1,0 +1,19 @@
+{
+  "books": {
+    "Johannu": {
+      "1": [
+        { "verse": 1, "text": "Ni ibẹrẹ ni Ọrọ wa, Ọrọ naa wa pẹ̀lú Ọlọrun, Ọrọ naa jẹ Ọlọrun." },
+        { "verse": 2, "text": "Ọna ni aibẹrẹ pẹ̀lú Ọlọrun." },
+        { "verse": 3, "text": "Gbogbo ohun ni a dá nípasẹ̀ re, ati pé láìsí re ko sí ohun ti a dá." },
+        { "verse": 4, "text": "Nínú re ni ìyè wà, ìyè náà sì jẹ́ ìmọ́lẹ̀ ènìyàn." }
+      ]
+    },
+    "Iwe Orin": {
+      "23": [
+        { "verse": 1, "text": "Olúwa ni oníṣàgà mi; emi kò ní nílò nínú kankan." },
+        { "verse": 2, "text": "Ó ń sì mú mi pamọ́ lórí koriko alàgbàdo." },
+        { "verse": 3, "text": "Ó ń mú mi pada, ó sì ń rìn mi lorí ọ̀nà ìtẹ́wà." }
+      ]
+    }
+  }
+}

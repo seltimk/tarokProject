@@ -1,0 +1,5 @@
+[
+  { "id": "eng", "name": "English", "nativeName": "English", "short": "ENG", "direction": "ltr" },
+  { "id": "hau", "name": "Hausa", "nativeName": "Hausa", "short": "HAU", "direction": "ltr" },
+  { "id": "yor", "name": "Yoruba", "nativeName": "Yoruba", "short": "YOR", "direction": "ltr" }
+]

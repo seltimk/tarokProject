@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#FAF7F0" />
+    <meta
+      name="description"
+      content="Kalma is a multi-language Bible and dictionary platform for Nigerian languages."
+    />
+    <meta property="og:title" content="Kalma" />
+    <meta
+      property="og:description"
+      content="Read scripture and explore language in a calm, offline-ready experience."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <title>Kalma</title>
+  </head>
+  <body>
+    <script>
+      (() => {
+        const storedTheme = localStorage.getItem('kalma-theme') || 'system'
+        const resolvedTheme =
+          storedTheme === 'system'
+            ? window.matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light'
+            : storedTheme
+        document.documentElement.setAttribute('data-theme', resolvedTheme)
+        document.documentElement.style.colorScheme = resolvedTheme
+        const themeMeta = document.querySelector('meta[name="theme-color"]')
+        themeMeta?.setAttribute('content', resolvedTheme === 'dark' ? '#121A16' : '#FAF7F0')
+        const storedLanguage = localStorage.getItem('kalma-language')
+        const browserLanguage = navigator.language?.split('-')[0] || 'en'
+        document.documentElement.lang = storedLanguage || browserLanguage || 'en'
+      })()
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

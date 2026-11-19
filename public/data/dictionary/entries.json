@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "term": "love",
+      "language": "en",
+      "meanings": ["deep affection", "care and devotion"],
+      "partOfSpeech": "noun",
+      "examples": ["Love is patient and kind.", "Their love for scripture grows daily."],
+      "translations": { "ha": "soyayya", "yo": "ife", "ig": "ikenga" }
+    },
+    {
+      "term": "grace",
+      "language": "en",
+      "meanings": ["unmerited favour", "divine kindness"],
+      "partOfSpeech": "noun",
+      "examples": ["We receive grace every day."],
+      "translations": { "ha": "alheri", "yo": "ọ̀rẹ́", "ig": "ezi" }
+    },
+    {
+      "term": "peace",
+      "language": "en",
+      "meanings": ["inner calm", "rest and harmony"],
+      "partOfSpeech": "noun",
+      "examples": ["The peace of God guards the heart."],
+      "translations": { "ha": "sulhu", "yo": "àlàáfíà", "ig": "udo" }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "books": {
+    "Yohanna": {
+      "1": [
+        { "verse": 1, "text": "A farkon kalma ce tă kasance a tare da Allah, kuma kalma ce Allah." },
+        { "verse": 2, "text": "Tă kasance a farkon tare da Allah." },
+        { "verse": 3, "text": "Duka abu ya samo halitta ta wurinta, kuma ba wani abu da aka yi ba sai ta wurinta." },
+        { "verse": 4, "text": "A cikinta rayuwa ce, rayuwar kuma haske ce ga mutane." }
+      ]
+    },
+    "Zabura": {
+      "23": [
+        { "verse": 1, "text": "Ubangiji makiyina ne; ba zan rasa komai ba." },
+        { "verse": 2, "text": "Yana sa ni ta huta a ciyayi masu kore." },
+        { "verse": 3, "text": "Yana mayar da ni; yana jagorance ni a hanya ta adalci." }
+      ]
+    }
+  }
+}
